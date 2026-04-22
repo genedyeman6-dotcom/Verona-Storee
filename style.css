@@ -83,13 +83,13 @@
       background: linear-gradient(160deg, rgba(42,31,36,0.55) 0%, rgba(180,90,110,0.3) 100%);
     }
     /* decorative petals */
-    .hero::after {
+    /* .hero::after {
       content: '';
       position: absolute; bottom: -2px; left: 0; right: 0;
       height: 120px;
       background: var(--cream);
       clip-path: ellipse(55% 100% at 50% 100%);
-    }
+    } */
     .hero-content {
       position: relative; z-index: 2;
       text-align: center; color: white;
