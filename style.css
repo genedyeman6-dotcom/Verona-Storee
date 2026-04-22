@@ -546,7 +546,7 @@
     }
  @media (max-width: 768px) {
   .hero {
-    height: 55vh;
+    height: 40vh;
   }
    .scroll-hint {
     bottom: 20px;
