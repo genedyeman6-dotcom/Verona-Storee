@@ -545,7 +545,9 @@
       .reviews-grid { grid-template-columns: 1fr 1fr; }
     }
  @media (max-width: 768px) {
- 
+  .hero {
+    height: 70vh;
+  }
    .scroll-hint {
     bottom: 20px;
   }
@@ -579,6 +581,9 @@
   }
 }
 @media (max-width: 480px) {
+    .hero {
+    height: 75vh;
+  }
   section {
     padding: 40px 5%;
   }
