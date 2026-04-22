@@ -71,7 +71,7 @@
 
     /* ─── HERO ─── */
     .hero {
-      height: 50vh; min-height: 600px;
+      height:40vh; min-height: 600px;
       background: url('images/11.png') center/cover no-repeat;
       position: relative;
       display: flex; align-items: center; justify-content: center;
