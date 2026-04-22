@@ -581,6 +581,9 @@
   }
 }
 @media (max-width: 480px) {
+  .hero-title {
+    font-size: 4.5rem;
+  }
     .hero {
     height: 50vh;
   }
