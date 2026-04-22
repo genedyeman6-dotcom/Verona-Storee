@@ -170,7 +170,7 @@
       transform: translateY(-2px);
     }
     .scroll-hint {
-      position: absolute; bottom: 140px; left: 50%; transform: translateX(-50%);
+      position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);
       z-index: 2;
       display: flex; flex-direction: column; align-items: center; gap: 6px;
       animation: bounce 2s infinite;
@@ -545,7 +545,10 @@
       .reviews-grid { grid-template-columns: 1fr 1fr; }
     }
  @media (max-width: 768px) {
-  nav .nav-links { display: none; }
+ 
+   .scroll-hint {
+    bottom: 20px;
+  }
   section {
     padding: 60px 5%;
   }
