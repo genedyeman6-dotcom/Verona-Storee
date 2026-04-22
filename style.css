@@ -82,7 +82,14 @@
       position: absolute; inset: 0;
       background: linear-gradient(160deg, rgba(42,31,36,0.55) 0%, rgba(180,90,110,0.3) 100%);
     }
-    /* decorative petals *
+    /* decorative petals */
+    /* .hero::after {
+      content: '';
+      position: absolute; bottom: -2px; left: 0; right: 0;
+      height: 120px;
+      background: var(--cream);
+      clip-path: ellipse(55% 100% at 50% 100%);
+    } */
     .hero-content {
       position: relative; z-index: 2;
       text-align: center; color: white;
@@ -169,7 +176,7 @@
       animation: bounce 2s infinite;
     }
     .scroll-hint span {
-      font-size: 0.65rem; letter-spacing: 3px;
+      font-size: 0.50rem; letter-spacing: 3px;
       text-transform: uppercase; color: rgba(255,255,255,0.55);
     }
     .scroll-hint i { color: rgba(255,255,255,0.55); font-size: 0.9rem; }
@@ -537,7 +544,7 @@
       .steps::before { display: none; }
       .reviews-grid { grid-template-columns: 1fr 1fr; }
     }
-  @media (max-width: 768px) {
+ @media (max-width: 768px) {
   nav .nav-links { display: none; }
   section {
     padding: 60px 5%;
@@ -593,3 +600,4 @@
     gap: 20px;
   }
 }
+
