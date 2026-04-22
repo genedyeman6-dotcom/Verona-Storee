@@ -550,8 +550,7 @@
       .about-visual .img-accent { bottom: -20px; }
       .about-text { padding-right: 0; }
       .grid-categories { grid-template-columns: repeat(2, 1fr); gap: 14px; }
-      .steps { grid-template-columns: 1fr 1fr; }
-      .reviews-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns:repeat(2, 1fr); gap: 14px; }
       .contact-grid { grid-template-columns: 1fr; max-width: 320px; }
       .promise-strip { gap: 18px; }
     }
