@@ -582,7 +582,7 @@
 }
 @media (max-width: 480px) {
     .hero {
-    height: 75vh;
+    height: 50vh;
   }
   section {
     padding: 40px 5%;
